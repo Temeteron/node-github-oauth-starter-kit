@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var swig = require('swig');
 var passport = require('passport');
 var session = require('express-session');
-// var mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
 
 // *** routes *** //
@@ -21,6 +21,7 @@ var app = express();
 
 // *** mongoose *** //
 // mongoose.connect('mongodb://<dbuser>:<dbpassword>@<your_database>');
+mongoose.connect('mongodb://MyNewUser:1234@ds035533.mlab.com:35533/heroku_xft06fg7');
 
 
 // *** view engine *** //

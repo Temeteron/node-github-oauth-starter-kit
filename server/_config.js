@@ -1,8 +1,8 @@
 var ids = {
-  github: {
-    clientID: '25f8d50a40fb0b8f1423',
-    clientSecret: 'dd4303362a9e40ef65c8a3205a602699062d7121',
-    callbackURL: "http://127.0.0.1:3000/auth/github/callback"
+  github: { // the above ids are only user for the starter kit and not for production
+    clientID: 'ddadff926dfb4f7826ef', // get_your_own
+    clientSecret: 'c0a3a61885efb1bdcda1fff499d0f9ba8e4e174b', // get_your_own
+    callbackURL: "http://127.0.0.1:3000/auth/github/callback" // get_your_own
   },
   linkedin: {
     clientID: 'get_your_own',
