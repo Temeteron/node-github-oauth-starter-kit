@@ -43,7 +43,7 @@ router.get('/*', function (req, res) {
   // Thus, if your url contains escape chars, then you should call the function escape(my_url)
   // and then redirect to: 'http://www.my_nodejs_server.com/ + my_url'
   
-  // After the previous the OAuth will happen and the accessToken will be returned to the given url
+  // After the previous the OAuth will occur and the accessToken will be returned to the given url
   // In our example, function goToMyWebApp() will redirect you to: 'https://www.gitcv.com/#/{accessToken}'
   // where accessToken is the token that generated via the OAuth from GitHub.
 
