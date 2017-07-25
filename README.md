@@ -37,9 +37,9 @@ Run the app
 $ npm start
 ```
 
-You can test the project by accessing the following link which will redirect you to the GitCV web application:
+You can test the project by accessing the following link which will redirect you to the GitCV web application with the accessToken:
 [http://127.0.0.1:3000/https://www.gitcv.com/%23/](http://127.0.0.1:3000/https://www.gitcv.com/%23/)
-## Steps to create your web app with the power of firebase and ionic
+## Steps to create your nodejs server for OAuth2
 1) Fork/Clone/Dowload the project
 2) Install the dependencies
 3) Change the configuration of GitHub ids info in file server/_config.js. You must change the clientID, clientSecret, callbackURL. The first two can be generated [here](https://github.com/settings/developers) by registering a new application. The callbackURL is the url that your nodejs server will redirect after the OAuth. This url must be the same in both your code and your registered application.
