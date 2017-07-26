@@ -21,6 +21,8 @@ var app = express();
 
 // *** mongoose *** //
 // mongoose.connect('mongodb://<dbuser>:<dbpassword>@<your_database>');
+// MongoDB URI for starter-kit
+// USE YOURS
 mongoose.connect('mongodb://MyNewUser:1234@ds035533.mlab.com:35533/heroku_xft06fg7');
 
 
