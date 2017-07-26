@@ -1,5 +1,5 @@
 {
-  "name": "intermediate_authentication_server",
+  "name": "node-github-oauth-starter-kit",
   "version": "1.0.0",
   "main": "./server/app.js",
   "scripts": {
@@ -8,6 +8,8 @@
   "keywords": [
     "node",
     "server",
+    "oauth",
+    "github",
     "heroku"
   ],
   "author": "Dimitris Greasidis",
